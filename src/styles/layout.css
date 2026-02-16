@@ -1,11 +1,17 @@
 /* layout.css */
+/*Dar un estilo de navegación suave a la página*/
+html {
+  scroll-behavior: smooth;
+}
+
+
 .header-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: var(--header-bg); /* Usa variable si quieres */
+  background-color: var(--header-bg); 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,5 +62,20 @@
 }
 .btn-porfolio:hover span {
    color: var(--button-hover-text-color)
+}
+
+/* Estilo subtitulos general[secciones] */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-label {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 8200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 10px;
 }
 

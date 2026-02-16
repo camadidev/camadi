@@ -38,50 +38,5 @@ export const appsData: AppItem[] = [
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupRifitas // Usamos la variable importada
-  },
-  {
-    id: 4,
-    name: "Rifitas",
-    description: "Gestión de rifas",
-    category: "Herramientas",
-    rating: 4.8,
-    downloads: "10+",
-    playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
-    appStoreLink: "#",
-    mockupImage: PhoneMockupRifitas // Usamos la variable importada
-  },
-  {
-    id: 5,
-    name: "Rifitas",
-    description: "Gestión de rifas",
-    category: "Herramientas",
-    rating: 4.8,
-    downloads: "10+",
-    playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
-    appStoreLink: "#",
-    mockupImage: PhoneMockupRifitas // Usamos la variable importada
-  },
-  {
-    id: 6,
-    name: "Rifitas",
-    description: "Gestión de rifas",
-    category: "Herramientas",
-    rating: 4.8,
-    downloads: "10+",
-    playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
-    appStoreLink: "#",
-    mockupImage: PhoneMockupRifitas // Usamos la variable importada
-  },
-  {
-    id: 7,
-    name: "Rifitas",
-    description: "Gestión de rifas",
-    category: "Herramientas",
-    rating: 4.8,
-    downloads: "10+",
-    playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
-    appStoreLink: "#",
-    mockupImage: PhoneMockupRifitas // Usamos la variable importada
   }
-
   ];

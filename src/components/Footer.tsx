@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer className="footer-container">
-        © 2025 CAMADI
+        © 2026 CAMADI
     </footer>
   )
 

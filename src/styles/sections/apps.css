@@ -2,6 +2,7 @@
 .seccion-apps {
   padding: 6rem 1rem 4rem;
   background-color: var(--background-color);
+  scroll-margin-top: 90px; /* altura de tu header */
 }
 
 .seccion-apps h2 {
@@ -16,7 +17,6 @@
   color: var(--text-color);
   margin-bottom: 3rem;
 }
-
 
 .app-card-grid {
   display: grid;

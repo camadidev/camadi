@@ -13,7 +13,6 @@ import './styles/responsive.css';
 
 import Layout from './components/Layout';
 import { appsData } from './data/appsData';
-import ScrollToHash from './components/ScrollToHash';
 
 
 
@@ -23,7 +22,7 @@ function App() {
   return (
 
     <Layout>
-       <ScrollToHash />
+      
       <div id="inicio-seccion" className="seccion-inicio">
   <div className="inicio-texto">
     <h1>Creamos aplicaciones digitales que conectan ideas con resultados reales.</h1>
@@ -39,9 +38,12 @@ function App() {
 
 
       <div id="apps-seccion" className="seccion-apps">
-    
+        <div className="section-header">
+        <span className="section-label">PORTFOLIO</span>
         <h2>Aplicaciones en producción</h2>
         <p>Explora nuestras aplicaciones en producción y descubre cómo transformamos ideas en soluciones digitales reales.</p>
+        </div>
+        
         <div className="app-card-grid">
 
           {appsData.slice(0, 4).map((app) => (
@@ -87,7 +89,7 @@ function App() {
           <a href="#" className="btn-outline">Ver todas las aplicaciones</a>
         </div>
       </div>
-
+          
       <div id="servicios-seccion" className="seccion-servicios">
         <h2>Servicios</h2>
         <div className="servicios-grid">
