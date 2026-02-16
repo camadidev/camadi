@@ -12,7 +12,7 @@
 
 .btn-solid:hover {
   background-color: var(--button-hover-color); /* Color al pasar el mouse */
-  color: var(--button-hover-text-color)
+  
 }
 
 /* Botón contorno */
@@ -30,5 +30,5 @@
 .btn-outline:hover {
   background-color: var(--button-hover-color); /* Color de fondo al pasar el mouse */
   border-color: transparent; /* Cambia el borde al pasar el mouse */
-  color:var(--button-hover-text-color);
+  color:var(--button-text-color);
 }

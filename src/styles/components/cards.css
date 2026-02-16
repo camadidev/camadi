@@ -44,19 +44,26 @@
   margin: 0;
 }
 
+.card-footer-stats{
+color: #000;
+}
+
 .category-tag {
-  background-color: #e0f7fa;
-  color: #007bff;
+ 
+  color: var(--accent-color);
   padding: 4px 10px;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  white-space: nowrap;
+  display: inline-block;
+  font-weight: 750;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .card-footer-stats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 0.9rem;
   color: #777;
@@ -64,7 +71,7 @@
 }
 
 .card-footer-stats span:first-child {
-  color: #ffc107;
+  color: #6b6969;
   font-weight: bold;
 }
 
@@ -89,9 +96,8 @@
 }
 
 .btn-google {
-  background-color: #4285f4;
+  background-color: var(--accent-color);
   color: #fff;
-  border: 1px solid #4285f4;
 }
 
 .btn-apple {

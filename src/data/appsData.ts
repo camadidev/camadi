@@ -9,9 +9,9 @@ export const appsData: AppItem[] = [
   {
     id: 1,
     name: "Fortuna Números de la suerte",
-    description: "Creación de números de la suerte",
+    description: "Generador práctico de números de la suerte con diseño intuitivo y resultados instantáneos.",
     category: "Entretenimiento",
-    rating: 4.8,
+    rating: 4.5,
     downloads: "5K+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.fortunenumerosuerte&pcampaignid=web_share",
     appStoreLink: "#",
@@ -20,10 +20,10 @@ export const appsData: AppItem[] = [
   {
     id: 2,
     name: "DIMAPLAY IPTV",
-    description: "Reproductor de contenido M3U8",
+    description: "Plataforma IPTV eficiente y ligera, diseñada para ofrecer reproducción estable y sin complicaciones.",
     category: "Entretenimiento",
-    rating: 4.8,
-    downloads: "100+",
+    rating: 4.5,
+    downloads: "500+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.mitvs&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupDimaPlay // Usamos la variable importada
@@ -31,10 +31,10 @@ export const appsData: AppItem[] = [
   {
     id: 3,
     name: "Rifitas",
-    description: "Gestión de rifas",
+    description: "Solución digital para gestionar rifas con control, orden y facilidad desde tu dispositivo.",
     category: "Herramientas",
-    rating: 4.8,
-    downloads: "10+",
+    rating: 5.0,
+    downloads: "50+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupRifitas // Usamos la variable importada

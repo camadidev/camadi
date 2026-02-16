@@ -72,10 +72,20 @@ html {
 .section-label {
   display: inline-block;
   font-size: 0.95rem;
-  font-weight: 8200;
+  font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--accent-color);
   margin-bottom: 10px;
+}
+
+.footer-container {
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 60px;
+  padding: 20px 2rem 100px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 

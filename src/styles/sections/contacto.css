@@ -1,14 +1,14 @@
 /* Sección Contacto */
 .seccion-contacto {
   padding: 6rem 1rem 4rem;
-  background-color: (--background-color);
+  background-color: var(--secondary-color);
   scroll-margin-top: 90px; /* altura de tu header */
 }
 
 .seccion-contacto h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: var( --button-text-color);
   margin-bottom: 3rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .contacto-item {
-  background-color: var(--card-bg);
+  background-color: var( --button-text-color);
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);

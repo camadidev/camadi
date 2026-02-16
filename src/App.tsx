@@ -61,21 +61,20 @@ function App() {
 
               {/* 2. Contenedor de Contenido */}
               <div className="card-content-area">
+                <span className="category-tag">{app.category}</span>
                 <div className="card-header">
                   <h3 className="app-title">{app.name}</h3>
-                  
                 </div>
 
                 <p className="app-description">{app.description}</p>
 
                 <div className="card-footer-stats">
-                  <span>⭐ {app.rating}</span>
+                   
                   <span>{app.downloads} descargas</span>
                 </div>
 
                 <div className="card-downloads">
                   <a href={app.playStoreLink} className="btn-download btn-google">Google Play</a>
-                  
                 </div>
 
 
@@ -84,44 +83,54 @@ function App() {
           ))}
         </div>
 
-        {/* Botón de "Ver todas las apps" */}
+        {/* Botón de "Ver todas las apps" 
         <div style={{ textAlign: 'center', margin: '2rem 0' }}>
           <a href="#" className="btn-outline">Ver todas las aplicaciones</a>
-        </div>
+        </div> */}
       </div>
           
       <div id="servicios-seccion" className="seccion-servicios">
-        <h2>Servicios</h2>
+        <div className="section-header">
+        <span className="section-label">NUESTROS SERVICIOS</span>
+        <h2>Impulsa tu crecimiento digital</h2>
+        <p>Utilizamos tecnologías modernas para construir soluciones digitales escalables y eficientes.</p>
+        </div>
         <div className="servicios-grid">
           <div className="servicio-card">
-            <h3>Desarrollo de Apps</h3>
-            <p>Diseñamos y construimos aplicaciones móviles que resuelven problemas reales.</p>
+            <h3>Desarrollo aplicaciones móviles</h3>
+            <p>Creamos aplicaciones móviles funcionales, intuitivas y orientadas a resolver problemas reales. Diseñamos experiencias centradas en el usuario, priorizando rendimiento, estabilidad y crecimiento a largo plazo.
+Desde la idea inicial hasta la publicación, acompañamos cada etapa del proceso para convertir conceptos en productos digitales sólidos.</p>
           </div>
           <div className="servicio-card">
-            <h3>Consultoría Técnica</h3>
-            <p>Te ayudamos a definir, planificar y escalar tu proyecto digital.</p>
+           <h3>Desarrollo web moderno</h3>
+            <p>Diseñamos y desarrollamos soluciones web modernas, optimizadas y alineadas a los objetivos de cada proyecto. Creamos sitios y aplicaciones que combinan rendimiento, diseño estratégico y escalabilidad, ayudando a marcas y emprendimientos a fortalecer su presencia digital.</p>
           </div>
           <div className="servicio-card">
-            <h3>Diseño UX/UI</h3>
-            <p>Creamos experiencias visuales intuitivas y centradas en el usuario.</p>
+            <h3>Tecnologías y proyectos</h3>
+            <p>Asesoramos y estructuramos proyectos tecnológicos desde su fase inicial, ayudando a definir arquitectura, funcionalidades y enfoque estratégico. Analizamos cada idea para seleccionar la mejor solución técnica, asegurando viabilidad, eficiencia y crecimiento sostenible.</p>
           </div>
         </div>
       </div>
 
       <div id="nosotros-seccion" className="seccion-nosotros">
-  <h2>Nosotros</h2>
+  <div className="section-header">
+        <span className="section-label">Quiénes somos</span>
+        <h2>Construimos tecnología con propósito.</h2>
+        </div>
   <div className="nosotros-contenido">
     <p>
-      En CAMADI creemos en el poder de la tecnología para transformar vidas. Somos una pyme costarricense dedicada al desarrollo de aplicaciones móviles que conectan salud, comunidad y bienestar.
-    </p>
-    <p>
-      Nuestro equipo combina creatividad, experiencia técnica y compromiso social para crear soluciones digitales que resuelven problemas reales. Cada proyecto que emprendemos busca mejorar la experiencia de nuestros usuarios y aportar valor a la sociedad.
+      En CAMADI desarrollamos aplicaciones que nacen de ideas propias y evolucionan para resolver problemas reales. Creemos en la tecnología como una herramienta para simplificar la vida, conectar personas y generar impacto positivo.
+      Hoy creamos nuestros propios productos. Mañana ayudaremos a marcas y emprendedores a construir los suyos.
     </p>
   </div>
 </div>
 
       <div id="contacto-seccion" className="seccion-contacto">
-  <h2>Contacto</h2>
+   <div className="section-header">
+        <span className="section-label">CONTACTO</span>
+        <h2>¿Tienes un proyecto en mente? Hagámolo realidad.</h2>
+        <p>Podemos ayudarte a diseñar la mejor solución tecnológica para tu negocio.</p>
+        </div>
   <div className="contacto-grid">
     <div className="contacto-item">
       <h3>📧 Correo</h3>
