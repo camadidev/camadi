@@ -16,14 +16,18 @@ body {
 
 /* ====== VARIABLES CSS ====== */
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #545d91;
-  --accent-color: #ffc107;
-  --background-color: #191935;
-  --text-color: #ffffff;
-  --header-bg: #382f46;
-  --footer-bg: #333333;
-  --card-bg: #000000;
+  --primary-color: #121212;
+  --secondary-color: #0f0f0f;
+  --accent-color: #912b2b;
+  --button-color: #111827;
+  --button-text-color: #ffffff;
+  --button-hover-color: #b34444;
+  --button-hover-text-color: #111827;
+  --background-color: #f7f1f1;
+  --text-color: #111827;
+  --header-bg: #ffffff;
+  --footer-bg: #d4d0d0;
+  --card-bg: #e6e5e5;
 }
 
 /* ====== ENLACES ====== */

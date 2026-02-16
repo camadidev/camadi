@@ -30,9 +30,15 @@
 
 .img-app-inicio {
   flex: 1;
-  max-width: 400px;
+  max-width: 200px;
   height: auto;
   object-fit: contain;
+}
+
+.botones-inicio {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 

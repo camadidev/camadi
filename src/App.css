@@ -99,7 +99,7 @@ body {
 /* Estilo del botón con solo el borde (Contáctanos) */
 .btn-outline {
   background-color: transparent;
-  color: #333;
+  color: #91a757;
   border: 1px solid #333;
 }
 

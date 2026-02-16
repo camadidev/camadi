@@ -1,7 +1,7 @@
 /* Botón sólido */
 .btn-solid {
-  background-color: var(--primary-color);
-color: var(--text-color);
+  background-color: var( --button-color);
+  color: var(--button-text-color);
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
@@ -11,15 +11,16 @@ color: var(--text-color);
 }
 
 .btn-solid:hover {
-  background-color: #0056b3; /* Color al pasar el mouse */
+  background-color: var(--button-hover-color); /* Color al pasar el mouse */
+  color: var(--button-hover-text-color)
 }
 
 /* Botón contorno */
 .btn-outline {
   background-color: transparent;
-  color: #007bff; /* Mismo color que el sólido */
+  color: var(--button-color); /* Mismo color que el sólido */
   padding: 10px 20px;
-  border: 2px solid #007bff;
+  border: 2px solid var(--button-color);
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
@@ -27,6 +28,7 @@ color: var(--text-color);
 }
 
 .btn-outline:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: var(--button-hover-color); /* Color de fondo al pasar el mouse */
+  border-color: transparent; /* Cambia el borde al pasar el mouse */
+  color:var(--button-hover-text-color);
 }

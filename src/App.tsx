@@ -1,9 +1,10 @@
 
-import phoneApps from './assets/phone_apps.png'
+import phoneApps from './assets/mockup_phone_rifitas.png'
 //import './App.css'
 import './styles/layout.css';
 import './styles/sections/inicio.css';
 import "./styles/sections/apps.css";
+import './styles/components/buttons.css';
 import './styles/components/cards.css';
 import './styles/sections/servicios.css';
 import './styles/sections/nosotros.css';
@@ -25,10 +26,8 @@ function App() {
        <ScrollToHash />
       <div id="inicio-seccion" className="seccion-inicio">
   <div className="inicio-texto">
-    <h1>Innovamos con apps que hacen tu vida más entretenida o más fácil</h1>
-    <p>Somos una pyme especializada en el desarrollo de aplicaciones
-      que ayuda a resolver problemas reales y mejoran la experiencia de
-      nuestros usuarios.
+    <h1>Creamos aplicaciones digitales que conectan ideas con resultados reales.</h1>
+    <p>Desarrollamos productos propios y soluciones a medida para marcas que quieren crecer en el mundo digital.
     </p>
     <div className="botones-inicio">
       <a href="#apps-seccion" className="btn-solid">Ver nuestras apps</a>
@@ -40,8 +39,9 @@ function App() {
 
 
       <div id="apps-seccion" className="seccion-apps">
-
-        <h2>Nuestras aplicaciones</h2>
+    
+        <h2>Aplicaciones en producción</h2>
+        <p>Explora nuestras aplicaciones en producción y descubre cómo transformamos ideas en soluciones digitales reales.</p>
         <div className="app-card-grid">
 
           {appsData.slice(0, 4).map((app) => (
@@ -61,7 +61,7 @@ function App() {
               <div className="card-content-area">
                 <div className="card-header">
                   <h3 className="app-title">{app.name}</h3>
-                  <span className="category-tag">{app.category}</span>
+                  
                 </div>
 
                 <p className="app-description">{app.description}</p>
@@ -73,7 +73,7 @@ function App() {
 
                 <div className="card-downloads">
                   <a href={app.playStoreLink} className="btn-download btn-google">Google Play</a>
-                  <a href={app.appStoreLink} className="btn-download btn-apple">App Store</a>
+                  
                 </div>
 
 

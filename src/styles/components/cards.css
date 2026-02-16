@@ -1,23 +1,27 @@
 /* Tarjeta de App */
 .app-card {
-  background-color: #000;
+  background-color: var(--card-bg);
   border-radius: 12px;
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-              0 1px 3px rgba(0, 0, 0, 0.08);
+  gap: 10px;
+  padding: 0px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  
 }
 
 .card-visual {
-  width: 25%;
-  max-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px 12px 0 0;
   height: auto;
+  padding: 8px;
+  background-color: rgb(196, 223, 214);
 }
 
 .app-mockup-img {
-  width: 100%;
+  width: 60%;
   height: auto;
   object-fit: contain;
   display: block;
@@ -25,11 +29,14 @@
 
 .card-content-area {
   flex-grow: 1;
+  padding: 10px;
+  
+  
 }
 
 .card-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 

@@ -18,39 +18,43 @@
   object-fit: contain;
 }
 
-.titulo-camadi {
-  font-size: 1.5rem;
-  color: #fff;
-  margin-left: 1rem;
-}
 
 .barra-navegacion {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
 .barra-navegacion a {
-  color: #fff;
+  color: #000000;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .barra-navegacion a:hover {
-  color: var(--accent-color); /* Amarillo suave */
+  color: var(--accent-color); /* Rojo suave */
 }
 
 .btn-porfolio {
   padding: 8px 16px;
   border: 1px solid #fff;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: var(--accent-color);
   color: #fff;
   transition: all 0.3s ease;
 }
 
-.btn-porfolio:hover {
-  background-color: var(--accent-color);
-  color: #000;
+.btn-porfolio span {
+  color: var(--button-text-color);
+  transition: color 0.3s ease;
+}
+
+.btn-porfolio:hover{
+  background-color: var(--button-hover-color);
+   
+}
+.btn-porfolio:hover span {
+   color: var(--button-hover-text-color)
 }
 
