@@ -12,7 +12,7 @@ export const appsData: AppItem[] = [
     description: "Generador práctico de números de la suerte con diseño intuitivo y resultados instantáneos.",
     category: "Entretenimiento",
     rating: 4.5,
-    downloads: "5K+",
+    downloads: "10K+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.fortunenumerosuerte&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupFortuna // Usamos la variable importada
@@ -23,7 +23,7 @@ export const appsData: AppItem[] = [
     description: "Plataforma IPTV eficiente y ligera, diseñada para ofrecer reproducción estable y sin complicaciones.",
     category: "Entretenimiento",
     rating: 4.5,
-    downloads: "500+",
+    downloads: "1k+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.mitvs&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupDimaPlay // Usamos la variable importada
