@@ -34,7 +34,7 @@ export const appsData: AppItem[] = [
     description: "Solución digital para gestionar rifas con control, orden y facilidad desde tu dispositivo.",
     category: "Herramientas",
     rating: 5.0,
-    downloads: "100+",
+    downloads: "500+",
     playStoreLink: "https://play.google.com/store/apps/details?id=com.camadi.rifitas&pcampaignid=web_share",
     appStoreLink: "#",
     mockupImage: PhoneMockupRifitas // Usamos la variable importada
