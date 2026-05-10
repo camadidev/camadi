@@ -138,7 +138,7 @@ Desde la idea inicial hasta la publicación, acompañamos cada etapa del proceso
     </div>
     <div className="contacto-item">
       <h3>📘 Facebook</h3>
-      <a href="https://www.facebook.com/camadidev" target="_blank" rel="noopener noreferrer">CAMADI</a>
+      <a href="https://www.facebook.com/camadi.oficial/" target="_blank" rel="noopener noreferrer">CAMADI</a>
     </div>
   </div>
 </div>
